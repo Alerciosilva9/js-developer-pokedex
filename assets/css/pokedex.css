@@ -6,6 +6,16 @@
     list-style: none;
 }
 
+.modal{
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: var(--bs-modal-inner-border-radius);
+    border-top-right-radius: var(--bs-modal-inner-border-radius);
+    background-color: rgb(150, 149, 149, 0.4);
+}
+
 .normal {
     background-color: #a6a877;
 }
